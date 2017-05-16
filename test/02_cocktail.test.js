@@ -2,7 +2,7 @@ const chai = require('chai')
 const assert = chai.assert
 const { alreadyJoined } = require('../src/02_cocktail')
 
-describe('01 Games', () => {
+xdescribe('01 Games', () => {
   describe('#alreadyJoined', () => {
     let cocktails, result
     beforeEach(() => {

@@ -2,7 +2,7 @@ const chai = require('chai')
 const assert = chai.assert
 const { join } = require('../src/01_game')
 
-describe('01 Games', () => {
+xdescribe('01 Games', () => {
   describe('#join', () => {
     let platforms, games, joinTable
     beforeEach(() => {

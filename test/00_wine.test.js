@@ -21,7 +21,7 @@ describe('00 Wine', () => {
       { id: 6, name: 'Outer Sounds', country_id: 4 },
     ]
   })
-  
+
   describe('#oneToMany', () => {
     let result
     beforeEach(() => {
